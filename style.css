@@ -1,0 +1,28 @@
+.container{
+	text-align:center;
+	margin-botttom: 10px;
+}
+#slideContainer{
+	width:400px;
+	height: 400px;
+	overflow:hidden;
+	margin: 0 auto;
+}
+#slideImages {
+	 width:2000px;
+	-webkit-transition:all 1.0s ease-in-out;
+	-moz-transition:all 1.0s ease-in-out;
+	-o-transition:all 1.0s ease-in-out;
+	transition:all 1.0s ease-in-out;
+}	
+#slideImages img{
+	margin:0;
+	padding:0;
+	float:left;
+}
+.controlsDiv{
+	text-align:center;
+}
+.controlsDiv a{
+	margin-left: 10px;
+}
